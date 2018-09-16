@@ -1,0 +1,46 @@
+body {
+  background-image: linear-gradient(to right, #3c3c3c, #b4b4b4);
+  font-family: times;
+}
+
+h1 {
+  background-color: lightgrey;
+  text-decoration-line: underline;
+  color: black;
+  padding: 10px;
+  width: 400px;
+  border-radius: 30px;
+}
+
+.hideDIV {
+  display: none;
+  visibility: hidden;
+}
+
+.news {
+	background-color: #FFFFFF;
+  width: 30%;
+  height: 600px;
+  margin: 10px 10px 10px 10px;
+  display: inline-grid;
+  justify-content: space-around;
+  padding: 10px 10px 10px 10px;
+  border-radius: 30px;
+  text-align: center;
+  border: 3px;
+  border-color: black;
+  border-style: solid;
+}
+
+.readMore {
+  white-space: nowrap;
+  width: 450px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+img {
+	max-width: 300px;
+  image-orientation: center;
+  margin: auto;
+}
