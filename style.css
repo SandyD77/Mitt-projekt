@@ -1,46 +1,77 @@
 body {
   background-image: linear-gradient(to right, #3c3c3c, #b4b4b4);
-  font-family: times;
+  font-family: segoe ui;
 }
 
 h1 {
-  background-color: lightgrey;
   text-decoration-line: underline;
-  color: black;
-  padding: 10px;
-  width: 400px;
-  border-radius: 30px;
+  color: white;
+  text-align: center;
+  font-size: 55px;
 }
 
-.hideDIV {
-  display: none;
-  visibility: hidden;
+.nav {
+    background-color: black;
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+.nav li {
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px;
+}
+
+h3 {
+  font-family: times;
+  color: white;
 }
 
 .news {
+  font-size: 14px;
 	background-color: #FFFFFF;
   width: 30%;
-  height: 600px;
-  margin: 10px 10px 10px 10px;
   display: inline-grid;
-  justify-content: space-around;
   padding: 10px 10px 10px 10px;
-  border-radius: 30px;
+  margin: 10px 10px 10px 10px;
   text-align: center;
-  border: 3px;
-  border-color: black;
-  border-style: solid;
-}
-
-.readMore {
-  white-space: nowrap;
-  width: 450px;
-  overflow: hidden;
-  text-overflow: ellipsis;
+  border-radius: 20px;
 }
 
 img {
-	max-width: 300px;
+	max-width: 80%;
   image-orientation: center;
   margin: auto;
+}
+
+#toTop {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: grey; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 14px; /* Increase font size */
+}
+
+#toTop:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+}
+
+a:visited {
+    font-family: times;
+    color: white;
+}
+
+a:hover {
+    text-decoration: underline;
 }
