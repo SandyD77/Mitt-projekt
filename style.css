@@ -1,6 +1,7 @@
 body {
   background-image: linear-gradient(to right, #3c3c3c, #b4b4b4);
   font-family: segoe ui;
+  font-size: 10vW;
 }
 
 h1 {
