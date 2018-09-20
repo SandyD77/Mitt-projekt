@@ -6,21 +6,26 @@
      <link rel="stylesheet" href="style.css" />
      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-
    </head>
 
    <body>
 
         <h1>Senaste nyheterna!</h1>
 
-        <ul class="nav">
-          <li><a href="#hem">Hem</a></li>
-          <li><a href="#omOss">Om oss</a></li>
-          <li><a href="#ourLinks">Våra länkar</a></li>
-          <li><a href="#kontaktaOss">Kontakta oss</a></li>
-        </ul>
+        <div class="col-container">
+          <div class="col">
+          <h2>Penningtvätt</h2>
+          </div>
 
-        <div class="allNews"></div>
+          <div class="col">
+            <h2>Bedrägeri</h2>
+          </div>
+        </div>
+
+        <div class="allTogether">
+          <div class="allNews"></div>
+          <div class="allFraud"></div>
+        </div>
 
         <button onclick="topFunction()" id="toTop" title="Go to top">Till<br>toppen</button>
 
@@ -32,6 +37,7 @@
           <br>
           <a href="https://www.transparency.org/news/feature/corruption_perceptions_index_2017"" target="_blank">Korruptionsindex</a>
         </div>
+
       <!-- Link to JS file -->
       <script src="script.js"></script>
 
