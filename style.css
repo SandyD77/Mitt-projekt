@@ -11,20 +11,6 @@ h1 {
   font-size: 60px;
 }
 
-h2 {
-  color: white;
-  font-size: 30px;
-}
-
-.col-container {
-    display: table;
-    width: 100%;
-}
-.col {
-    display: table-cell;
-    padding: 10px;
-}
-
 h3 {
   font-family: times;
   color: white;
