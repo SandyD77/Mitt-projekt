@@ -1,13 +1,13 @@
 // Our variables
 const key = "081464f2dd5a41ee8aaa8abb06632b8a"
-const url = `https://newsapi.org/v2/everything?language=sv&q=penningtvätt OR spelmyndigheten OR ekobrott NOT musikal&from=2018-09-04S&sortBy=publishedAt&apiKey=${key}`
-const url2 = `https://newsapi.org/v2/everything?language=sv&q=bedrägeri OR fraud förskingring&from=2018-09-10S&sortBy=publishedAt&apiKey=${key}`
-const url3 = `https://newsapi.org/v2/everything?language=sv&q=spelmissbruk OR spelmissbrukare&from=2018-09-01&sortBy=publishedAt&apiKey=${key}`
+const url = `https://newsapi.org/v2/everything?language=sv&q=penningtvätt OR spelmyndigheten OR ekobrott NOT musikal&from=2019-03-10S&sortBy=publishedAt&apiKey=${key}`
+const url2 = `https://newsapi.org/v2/everything?language=sv&q=bedrägeri OR fraud OR förskingring OR matchfixning&from=2019-03-10S&sortBy=publishedAt&apiKey=${key}`
+const url3 = `https://newsapi.org/v2/everything?language=sv&q=spelmissbruk OR spelmissbrukare&from=2019-03-10&sortBy=publishedAt&apiKey=${key}`
 
 //const keyWeather = "e7d14d47781b029f604ee7b45f050e99"
 //const urlWeather = `http://api.openweathermap.org/data/2.5/forecast?id=2662689&APPID=${keyWeather}`
 
-// Our main function
+// Moneylaundering
 const recievedNews = (newsdata) => {
 	// For each article object from the API, we create a new div in HTML.
     newsdata.articles.forEach((article) => {

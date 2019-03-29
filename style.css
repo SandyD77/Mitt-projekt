@@ -9,14 +9,14 @@ h1 {
   color: white;
   text-align: center;
   font-size: 60px;
+  margin-bottom: inherit;
 }
 
 li {
     display: inline;
     color: white;
     font-size: 40px;
-    margin-left: 250px;
-    justify-content: flex-start;
+    margin-left: 220px;
 }
 
 .allTogether {
@@ -28,7 +28,7 @@ li {
 .news {
   font-size: 14px;
 	background-color: #FFFFFF;
-  width: 560px;
+  width: 500px;
   padding: 20px;
   margin: 10px;
   text-align: center;
@@ -38,7 +38,7 @@ li {
 .fraud {
   font-size: 14px;
 	background-color: #FFFFFF;
-  width: 560px;
+  width: 500px;
   padding: 20px;
   margin: 10px;
   text-align: center;
@@ -48,7 +48,7 @@ li {
 .gamingproblems {
   font-size: 14px;
 	background-color: #FFFFFF;
-  width: 560px;
+  width: 500px;
   padding: 20px;
   margin: 10px;
   text-align: center;
